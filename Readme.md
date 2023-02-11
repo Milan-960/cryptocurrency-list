@@ -1,6 +1,6 @@
 # The Crypto price tracking app 🔥💰
 
-# This is a Crypto price tracking app that was built using [Coingecko Api]("https://www.coingecko.com/en/api") and is a PWA web app. It show latest price all the cryptocurrencies. 🔥 🔥
+# This is a Crypto price tracking app that was built using [Coingecko Api](https://www.coingecko.com/en/api) and is a PWA web app. It show latest price all the cryptocurrencies. 🔥 🔥
 
 ### For clone this repository in your pc pest below link in your terminal 👇
 
