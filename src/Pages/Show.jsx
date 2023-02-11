@@ -27,7 +27,11 @@ export const Show = () => {
       <Header back />
       <div className="custom-maxWidth">
         <header className="flex flex-col py-10 items-center ">
-          <img className="w-24 md:w-52" src={store.imageLarge} alt="" />
+          <img
+            className="w-24 md:w-52"
+            src={store.imageLarge}
+            alt={store.imageLarge}
+          />
           <h2 className="mt-5">
             {store.name} ({store.symbol})
           </h2>
@@ -60,7 +64,7 @@ export const Show = () => {
         </div>
 
         <div className="custom-maxWidthItem">
-          <h2 className="text-2xl text-gray-900 mb-2 ||">Market Data</h2>
+          <h2 className="text-2xl mb-2 ||">Market Data</h2>
           <div className="flex flex-col gap-4 mb-10">
             <div className="flex justify-between py-4 border-b border-gray-500">
               <h3>Market Cap</h3>

@@ -16,6 +16,7 @@
     "react-scripts": "5.0.1",
     "recharts": "^2.4.1",
     "sass": "^1.58.0",
+    "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4",
     "workbox-background-sync": "^6.5.4",
     "workbox-broadcast-update": "^6.5.4",
