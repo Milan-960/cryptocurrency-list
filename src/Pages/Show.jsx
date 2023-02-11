@@ -33,28 +33,30 @@ export const Show = () => {
           </h2>
         </header>
         <div className="flex flex-col py-10 items-center">
-          <AreaChart
-            width={500}
-            height={400}
-            data={store.graphData}
-            margin={{
-              top: 10,
-              right: 30,
-              left: 0,
-              bottom: 0,
-            }}
-          >
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="Date" />
-            <YAxis />
-            <Tooltip />
-            <Area
-              type="monotone"
-              dataKey="Price"
-              stroke="#8884d8"
-              fill="#8884d8"
-            />
-          </AreaChart>
+          <ResponsiveContainer width="100%" height={400}>
+            <AreaChart
+              data={store.graphData}
+              width={500}
+              height={400}
+              margin={{
+                top: 10,
+                right: 40,
+                left: 0,
+                bottom: 0,
+              }}
+            >
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="Date" />
+              <YAxis />
+              <Tooltip />
+              <Area
+                type="monotone"
+                dataKey="Price"
+                stroke="#8884d8"
+                fill="#8884d8"
+              />
+            </AreaChart>
+          </ResponsiveContainer>
         </div>
 
         <div className="custom-maxWidthItem">

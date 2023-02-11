@@ -25,7 +25,9 @@ export const Header = ({ back }) => {
         </h1>
         <ul className="flex justify-between gap-5">
           <li className="hover:text-gray-300 hover:underline">
-            <Link to="/">Contact the Developer</Link>
+            <Link to="https://milansachani.dev" target="_blank">
+              Contact the Developer
+            </Link>
           </li>
         </ul>
       </div>
