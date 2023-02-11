@@ -24,6 +24,16 @@ npm start
 <img align="right" src="./SS/show.png" width="100%"/>
 <p>&nbsp;</p>
 
+## Dark Mode 😎
+
+<h1>Home Page</h1>
+<img align="right" src="./SS/Dhome.png" width="100%"/>
+<p>&nbsp;</p>
+
+<h1>Info Page</h1>
+<img align="right" src="./SS/Dinfo.png" width="100%"/>
+<p>&nbsp;</p>
+
 ## Author 😎
 
 - **[Milan Sachani](https://github.com/milan-960)**
