@@ -5,12 +5,16 @@ export default function AnimatedPointer() {
   return (
     <div className="App">
       <AnimatedCursor
+        color="193, 11, 111"
         innerSize={8}
         outerSize={22}
-        color="193, 11, 111"
-        outerAlpha={0.5}
-        innerScale={0.2}
+        innerScale={0.3}
         outerScale={2}
+        outerAlpha={0.5}
+        hasBlendMode={true}
+        outerStyle={{
+          mixBlendMode: "exclusion",
+        }}
       />
     </div>
   );
